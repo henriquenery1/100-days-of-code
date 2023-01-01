@@ -1,5 +1,3 @@
-
-
 def find_veg(grill):
     veggie, non_veggie = 0, 0 
     contain_meet = 'x'
@@ -9,6 +7,6 @@ def find_veg(grill):
             veggie+=1
         else:
             non_veggie+=1 
+            
     result = [veggie, non_veggie]
-
     return result
